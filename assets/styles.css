@@ -1,0 +1,103 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #c6c6f6;
+    color: #65018d;
+}
+ 
+/* Header Elements */
+header { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    background-color: #f5f5a0;
+}
+
+nav a {
+    font-size: 18px;
+    color: #4e1265;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.home {
+display: flex;
+align-items: center;
+padding: 40 10%;
+
+} 
+
+.home-content h1 {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    
+.home-content h3 {
+        font-size: 32px;
+        font-weight: 700px;
+        color: #65018d;
+    }
+    
+.home-content p {
+        display: flex;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+.sectionArea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    color: #65018d;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    color: #65018d;
+    padding-bottom: 2%;
+}
+
+.contact h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    color: #65018d;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40;
+}
+
+.contact p {
+font-size: large;
+}
+
+footer {
+    background: #f5f5a0;
+    color:#4e1265;
+    text-align: center;
+    padding: 10px 0;
+}
